@@ -11,7 +11,7 @@
     <a href="#" class="list-group-item clearfix" *ngFor="let recipe of recipes">
       <div class="float-left">
         <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
-        <p class="list-group-item-text">{{ recipe.description }}</p>
+        <p class="list-group-item-text">{{ recipe.desc }}</p>
       </div>
       <span class="float-right">
         <img [src]="recipe.imgPath" alt="" class="img-responsive" style="max-height: 40px;" />

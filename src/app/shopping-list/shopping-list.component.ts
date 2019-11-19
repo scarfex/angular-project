@@ -7,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./shopping-list.component.css"]
 })
 export class ShoppingListComponent implements OnInit {
-  ingredients: Ingredient[] = [new Ingredient("Tomato", 10), new Ingredient("Avacado", 3)];
+  ingredients = [new Ingredient("Tomato", 10), new Ingredient("Avacado", 3)];
   constructor() {}
 
   ngOnInit() {}
