@@ -10,9 +10,10 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { RecipeComponent } from './recipe/recipe.component';
 import { RecipeItemComponent } from './recipe/recipe-item/recipe-item.component';
 import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.component';
+import { RecipeListComponent } from './recipe/recipe-list/recipe-list.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, ShoppingListComponent, ShoppingEditComponent, RecipeComponent, RecipeItemComponent, RecipeDetailComponent],
+  declarations: [AppComponent, HeaderComponent, ShoppingListComponent, ShoppingEditComponent, RecipeComponent, RecipeItemComponent, RecipeDetailComponent, RecipeListComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
